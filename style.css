@@ -1,0 +1,199 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+/* Heading Styles */
+h1,
+h3 {
+  margin: 10px;
+}
+
+/* Button Styles */
+button {
+  width: 205px;
+  height: 48px;
+  left: 57px;
+  top: 491px;
+  background: #FFC600;
+  border-radius: 8px;
+}
+
+/* Link Styles */
+a {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+/* Logo Styles */
+.Logo {
+  width: 20%;
+}
+
+/* Label Styles */
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Form Styles */
+form {
+  text-align: center;
+}
+
+/* Cadastro Styles */
+.cadastro {
+  margin-top: 20%;
+  text-align: center;
+}
+
+/* Esqueceu Senha Styles */
+.esqueceu-senha {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+/* Horizontal Rule Styles */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Paragraph Styles */
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Google Styles */
+.google {
+  width: 2em;
+  cursor: pointer;
+}
+
+/* Login Styles */
+.login {
+  width: 30vw;
+  margin: 0;
+}
+
+/* Bem-vindo Styles */
+.bem-vindo {
+  margin-top: 20%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .Logo {
+    width: 25%;
+  }
+
+  .login {
+    width: 100vh;
+  }
+}
+
+/* Page Styles */
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.page.active {
+  opacity: 1;
+}
+
+/* Fade Animation Styles */
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s;
+}
+
+/* Button Primary Styles */
+.btn-primary {
+  background-color: #FFC600 !important;
+  border-color: #FFC600 !important;
+}
+
+/* Button Settings Styles */
+.btn-settings {
+  color: black;
+  margin-left: auto;
+}
+
+/* Toggle Eye Styles */
+.toggle-eye {
+  cursor: pointer;
+}
+
+/* Fade In Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade Out Animation Styles */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+footer {
+  background-color: #dadada;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
